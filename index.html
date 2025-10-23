@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Interest Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Font Awesome for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <h1>My Personal Interest Webpage</h1>
+  <p>Click the buttons below to learn more about me!</p>
+
+  <div class="buttons">
+    <button onclick="showSection('info')">👤 Personal Info</button>
+    <button onclick="showSection('songs')">🎵 Song Recos</button>
+    <button onclick="showSection('whyit')">💻 Why IT</button>
+    <button onclick="showSection('socials')">🌐 Social Media</button>
+    <button onclick="showSection('quotes')">💬 Quotes</button>
+  </div>
+
+  <!-- Personal Info -->
+  <div id="info" class="content">
+    <figure>
+      <img src="me.png" alt="Personal Info">
+      <figcaption>
+        <b>Name:</b> Marianito Frane<br>
+        <b>Age:</b> 20 <br>
+        <b>Hobbies:</b> Listening to music, volleyball, and traveling. <br>
+        <b>Address:</b> Tulo, Batangas City<br>
+        <b>School:</b> Batangas State University - TNEU - Alangilan Campus<br>
+        <b>College:</b> College of Informatics and Computing Sciences<br>
+        <b>Program:</b> Bachelor of Science in Information Technology <br>
+        <b>Organizations:</b> Bits & Bytes CICS Publication - Broadcaster, CICS SC - Member, IINTESS - Member, SSC Alangilan - Member<br>
+        <b>Hobbies/Interests:</b> Listening to music, watching K-pop performances, <br>
+        exploring new technology trends, drawing, and editing digital photos. <br>
+        <b>Skills/Talents:</b> Web and graphic design, creativity, problem-solving, teamwork, communication, and time management.<br>
+        <b>Favorite Subjects:</b> ICT, English, and Creative Arts. <br>
+        <b>Achievements:</b> Consistent Honor Student, Active Participant in School Activities, and ICT Project Presenter.<br>
+        <b>Goals/Ambition:</b> To become a successful IT professional,<br> 
+        and use technology to create solutions that help people in everyday life.<br>
+        <b>Motto:</b> “Dream big, work hard, and stay humble.”
+     
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- Song Recos -->
+  <div id="songs" class="content" style="display:none;">
+    <figure>
+      <img src="songs.png" alt="Song Recommendations">
+      <figcaption>
+        🎧 My current favorite songs:<br>
+        - “Blue Valentine ” by NMIXX <br>
+        - “Bulalakaw” by BGYO <br>
+        - “Chi Mat Ba Ram” by Brave Girls
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- Why IT -->
+  <div id="whyit" class="content" style="display:none;">
+    <figure>
+      <img src="it.png" alt="Why IT">
+      <figcaption>
+         I chose IT because I’m interested in technology and how it shapes the modern world.<br>
+        I enjoy learning how systems work, solving technical problems, <br>
+        and finding new ways to make things easier through computers and innovation.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- Social Media -->
+  <div id="socials" class="content" style="display:none;">
+    <figure>
+      <img src="socials.svg" alt="Social Media">
+      <figcaption>
+        🌐 Connect with me:<br><br>
+        <div class="social-buttons">
+          <a href="https://www.facebook.com/itsianfrane" class="social-btn fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="https://www.instagram.com/itsianfrane" class="social-btn ig"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://www.tiktok.com/@itsianfrane" class="social-btn tk"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- Quotes -->
+  <div id="quotes" class="content" style="display:none;">
+    <figure>
+      <img src="quotes.png" alt="Quotes">
+      <figcaption>
+        💬 My Favorite Quotes:<br>
+        “Dream big, work hard, stay humble.”<br>
+        “Don’t watch the clock; do what it does. Keep going.”<br>
+        “The future belongs to those who believe in the beauty of their dreams.”
+      </figcaption>
+    </figure>
+  </div>
+</body>
+</html>
